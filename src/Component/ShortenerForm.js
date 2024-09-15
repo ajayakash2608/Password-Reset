@@ -27,10 +27,10 @@ import { useNavigate } from 'react-router-dom';
 //     }
 //   };
 
-//   const handleLogout = () => {
-//     localStorage.removeItem('token');
-//     navigate('/login');
-//   };
+  const handleLogout = () => {
+    localStorage.removeItem('token');
+    navigate('/login');
+ };
 
   return (
     <div className="container">
